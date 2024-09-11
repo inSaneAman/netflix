@@ -14,6 +14,8 @@
 -Implement SignIn USer API
 -Created Redux Store with userSlice
 -Implemented Sign Out
+-Update Profile
+-Fetch Move=ies from TMDB
 
 
 # Features
