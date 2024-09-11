@@ -17,7 +17,6 @@
 -Update Profile
 -Fetch Move=ies from TMDB
 
-
 # Features
 -Login/SignUp
     -SignIn/SignUp Form
