@@ -16,6 +16,10 @@
 -Implemented Sign Out
 -Update Profile
 -Fetch Move=ies from TMDB
+-Bug Fix: Signup user displayname & profile pic update
+-BugFix: If user not logged in, Redirect /browse to login page
+-Unsubscribe
+-
 
 # Features
 -Login/SignUp
