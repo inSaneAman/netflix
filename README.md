@@ -19,7 +19,8 @@
 -Bug Fix: Signup user displayname & profile pic update
 -BugFix: If user not logged in, Redirect /browse to login page
 -Unsubscribe
--
+-Register on TMDB, creata an app and get API access token
+-Get data from TMDB now playing list
 
 # Features
 -Login/SignUp

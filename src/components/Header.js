@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import {addUser, removeUser} from "../utils/userSlice";
-import { LOGO } from "../utils/constants";
+import { LOGO, userAvatar } from "../utils/constants";
 const Header =() =>{
 
     const dispatch = useDispatch();
@@ -38,7 +38,7 @@ const Header =() =>{
 
             {user && (
                 <div className="flex p-2">
-                <img className="h-12 w-12 rounded-lg"src={user?.photoURL}alt="User Icon"/>
+                <img className="h-12 w-12 rounded-lg"src={userAvatar}alt="User Icon"/>
                 <button onClick={handleSignOut}className="font-bold text-white px-2">Sign Out</button>
             </div>)}
         </div>
