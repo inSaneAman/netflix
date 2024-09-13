@@ -7,10 +7,10 @@ const Browse = () => {
   useNowPlayingMovies();
 
   return (
-    <div>
+    <div className="w-full h-screen">
       <Header />
-      <MainContainer/>
-      <SecondaryContainer/>
+      <MainContainer />
+      <SecondaryContainer />
     </div>
   );
 };

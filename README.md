@@ -21,6 +21,15 @@
 -Unsubscribe
 -Register on TMDB, creata an app and get API access token
 -Get data from TMDB now playing list
+-Custom hook for Trailer
+-Updated store with movie data
+-Create movie slice
+-Main & Secondary Container
+-Fetch data for trailer
+-Store update
+-Embed the video and make it autoplay & mute
+-Tailwind CSS to fit it in
+
 
 # Features
 -Login/SignUp
