@@ -4,10 +4,27 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        kalnia: ['Kalnia Glaze', 'sans-serif'],
+        kalnia: ["Kalnia Glaze", "sans-serif"],
         sofadi: ['"Sofadi One"', "cursive"],
+        macondo: ["Macondo","cursive"],
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities(
+        {
+          ".hide-scrollbar": {
+            "overflow-x": "scroll",
+            "-ms-overflow-style": "none" /* IE and Edge */,
+            "scrollbar-width": "none" /* Firefox */,
+          },
+          ".hide-scrollbar::-webkit-scrollbar": {
+            display: "none" /* WebKit browsers */,
+          },
+        },
+        ["responsive", "hover"]
+      );
+    },
+  ],
 };
