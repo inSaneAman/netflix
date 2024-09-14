@@ -29,6 +29,12 @@
 -Store update
 -Embed the video and make it autoplay & mute
 -Tailwind CSS to fit it in
+-Secondary container
+-Movie List
+-TMDB image CDN
+-Movie Card
+-UI/UX of Browse Page
+-Created custom hooks for different genres
 
 
 # Features
