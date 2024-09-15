@@ -7,6 +7,7 @@ module.exports = {
         kalnia: ["Kalnia Glaze", "sans-serif"],
         sofadi: ['"Sofadi One"', "cursive"],
         macondo: ["Macondo","cursive"],
+        jacques: ["Jacques Francois Shadow", "serif"]
       },
     },
   },

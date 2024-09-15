@@ -35,6 +35,10 @@
 -Movie Card
 -UI/UX of Browse Page
 -Created custom hooks for different genres
+-GPT Search Page
+-GPT Search Bar
+-Multi-Lingual Feature (Only on Search Page Texts)
+-GPT APIs Integration(get OpenAI key)
 
 
 # Features
