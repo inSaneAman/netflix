@@ -39,7 +39,14 @@
 -GPT Search Bar
 -Multi-Lingual Feature (Only on Search Page Texts)
 -GPT APIs Integration(get OpenAI key)
-
+-Get OpenAI API Key
+-GPT search API Call
+-Fetched GPT Movie Suggestions from TMDB
+-gptSlice & added data
+-Reused movie list component for gpt suggestion
+-Memoization
+-Adding .env file
+-Made site responsive
 
 # Features
 -Login/SignUp
