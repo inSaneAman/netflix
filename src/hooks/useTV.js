@@ -1,10 +1,13 @@
 import { useEffect } from "react";
 import { APIOptions } from "../utils/constants";
 import { addTV } from "../utils/movieSlice";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 const useTV = () => {
   const dispatch = useDispatch();
+
+  const TV = useSelector((store) => store.movies.TV);
+
   const getTV = async () => {
     const data = await fetch(
       "https://api.themoviedb.org/3/discover/tv?page=1",
@@ -16,7 +19,7 @@ const useTV = () => {
   };
 
   useEffect(() => {
-    getTV();
+    !TV && getTV();
   }, []);
 };
 
